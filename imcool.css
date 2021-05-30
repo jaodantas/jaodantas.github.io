@@ -50,6 +50,7 @@ body {
   p {
     font-size: 7vw;
   }
+
 }
 
 @media only screen and (max-aspect-ratio: 3/2) {
@@ -98,5 +99,21 @@ body {
   p {
     font-size: 12vh;
     margin-top: 0;
+  }
+
+  .p404 {
+    align-items: center;
+  }
+
+  .p404 h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 1vh -1vh brown;
+    width: 100%;
+    font-size: 15vh;
+  }
+
+  .p404 p {
+    font-size: 4vh;
   }
 }
